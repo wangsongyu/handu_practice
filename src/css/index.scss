@@ -1,0 +1,2024 @@
+@import "common.scss";
+
+//头部操作导航栏
+#globle_nav{
+	width: 100%;
+	height: 30px;
+	background: #ff0;
+	border-bottom:1px solid #ddd;
+	background: #f5f5f5;
+	a{
+		color: #3e3e3e;
+	}
+	.w{
+		height: 30px;
+		background: #f5f5f5;
+		.back{
+			text-align: center;
+			width: 70px;
+			line-height: 30px;
+			margin-left: 10px;
+			a{
+				color: #f60;
+				font-weight: bold;
+			}
+			a:hover{
+				color: firebrick;
+			}
+		}
+		.collect{
+			line-height: 30px;
+			text-align: center;
+			width: 70px;
+			a:hover{
+				color:firebrick;
+			}
+		}
+		.nav_bar{
+			height: 30px;
+			p.l{
+				line-height: 30px;
+				color: #000;
+				margin-right:10px; 
+				font-size: 14px;
+			}
+			.list{
+				li{
+					line-height: 30px;
+					margin-right: 15px;
+					a:hover{
+						color: #c70a28;
+					}
+				}
+				li:nth-of-type(2){
+					a{
+						color: #c70a28;
+					}
+					
+				}
+				li:nth-of-type(3){
+					a{
+						border-right: 1px solid #ccc;
+						padding-right: 10px;
+					}
+				}
+				
+			}
+			.nav_r{
+				line-height: 30px;
+				margin-right: 10px;
+				position: relative;
+				a:hover{
+					color: #C80A28;
+				}
+				.s1{
+					width: 12px;
+					height: 10px;
+					display: inline-block;
+					background: url(http://s.handu.com/themes/handuyishe/images/header_2014/icon.png) no-repeat -31px -28px;
+				}
+				.webdh{
+					z-index: 10;
+					width: 1150px;
+					height: 154px;
+					border:1px solid #ccc;
+					position: absolute;
+					left: -1110px;
+					top: 30px;
+					display: none;
+					background: #fff;
+					a:hover{
+						text-decoration: underline;
+					}
+					.hot{
+						margin-top:10px;
+						margin-left: 30px;
+						height: 130px;
+						width:180px;
+						border-right: 1px solid #ccc;
+						h1{
+							font-size: 16px;
+							color: #f56b03;
+							line-height: 35px;
+						}
+						ul{
+
+							li{
+								line-height: 24px;
+								width: 50%;
+							}
+						}
+					}
+					.Hstyle{
+						width: 300px;
+						height: 130px;
+						margin-top: 10px;
+						border-right: 1px solid #ccc;
+						margin-left: 30px;
+						h1{
+							font-size: 16px;
+							color: #ec0736;
+							line-height: 35px;
+						}
+						ul{
+							li{
+								float: left;
+								line-height: 24px;
+								width: 50%;
+							}
+						}
+					}
+					.AMH{
+						width: 150px;
+						height: 130px;
+						border-right: 1px solid #ccc;
+						margin-left: 30px;
+						margin-top: 10px;
+						h1{
+							font-size: 16px;
+							color: #2263d4;
+							line-height: 35px;
+						}
+					}
+					.mini{
+						width: 150px;
+						height: 130px;
+						border-right: 1px solid #ccc;
+						margin-left: 30px;
+						margin-top: 10px;
+						h1{
+							font-size: 16px;
+							color: #5e8e3d;
+							line-height: 35px;
+						}
+					}
+					.help{
+						width: 200px;
+						height: 130px;
+						margin-left: 30px;
+						margin-top: 10px;
+						h1{
+							font-size: 16px;
+							color: #686868;
+							line-height: 35px;
+						}
+						ul{
+							li{
+								float: left;
+								line-height: 24px;
+								width: 50%;
+							}
+						}
+					}
+				}
+			}
+			.nav_r:hover .webdh{
+				display: block;
+			}
+		}
+	}
+}
+
+//头部搜索栏
+#head{
+	width: 100%;
+	height: 115px;
+	.w{
+		position: relative;
+		height: 115px;
+		
+		h1{
+			width: 355px;
+			height: 97px;
+			margin-top: 8px;
+			background: url(http://img01.handu.com//hdysweb/20151009/logo_new.png) no-repeat center;
+		}
+		.hd_search{
+			width: 540px;
+			height: 62px;
+			
+			margin-top: 28px;
+			margin-left:30px; 
+			.top{
+				overflow: hidden;
+				input{
+					width: 400px;
+					height: 32px;
+					border: 2px solid #c80a28;
+					outline: none;
+					font-size: 14px;
+					line-height: 20px;
+					color: #c80a28;
+				}
+			.btn{
+					width: 85px;
+					height: 36px;
+					background: url(http://s.handu.com/themes/handuyishe/images/header_2014/icon.png) no-repeat 0px -45px;
+					cursor: pointer;
+				}
+			}
+			.bottom{
+				overflow: hidden;
+				ul{
+					li{
+						margin-left: 10px;
+						line-height: 26px;
+						a{
+							border-right: 1px solid #ccc;
+							padding-right: 10px;
+							color: #3e3e3e;
+						}
+						a:hover{
+							color: #f60;
+						}
+					}
+					li:nth-of-type(1){
+						margin-left: 0;
+					}
+					li:last-of-type a{
+						border: none;
+					}
+				}
+			}
+		}
+		.Scan{
+			width: 100px;
+			height: 116px;
+			position: absolute;
+			left: 1050px;
+			top: 16px;
+			p{
+				font-size: 12px;
+				line-height: 16px;
+				color: #ff0032;
+			}
+		}
+	}
+}
+
+//固定吸顶搜索栏
+#fixedHead{
+	z-index: 20;
+	width: 100%;
+	height: 50px;
+	background: #000;
+	position: fixed;
+	left: 0;
+	top: 100px;
+	display: none;
+	h1{
+		width: 77px;
+		height: 44px;
+		background: url(http://img01.handu.com/hdysweb/20140728/slogo.png) no-repeat center;
+		margin-left: 170px;
+	}
+	.search{
+		width: 740px;
+		height: 34px;
+		margin-top: 8px;
+		margin-left: 120px;
+		input{
+			width: 650px;
+			height: 34px;
+			border: 0;
+		}
+		a{
+			display: inline-block;
+			width: 90px;
+			height: 34px;
+			line-height: 34px;
+			text-align: center;
+			color: white;
+			background: #c80a28;
+			font-size: 16px;
+		}
+	}
+	p{
+		line-height: 50px;
+		width: 200px;
+		color: #fff;
+		margin-left: 50px;
+	}
+}
+
+//侧边栏
+#aside{
+	position: absolute;
+	top: 0;
+	right: 30px;
+	z-index: 20;
+	display: none;
+	.aside_list{
+		li:nth-of-type(1){
+			a{
+				display: block;
+				width: 72px;
+				height: 80px;
+				background: url(http://img01.handu.com/hdysweb/20170508/float_box4.png) no-repeat 0px 0px;
+			}
+		}
+		li:nth-of-type(1):hover{
+			background-position: -72px 0px;
+		}
+		li:nth-of-type(2){
+			a{
+				display: block;
+				width: 72px;
+				height: 80px;
+				background: url(http://img01.handu.com/hdysweb/20170508/float_box4.png) no-repeat 0px -80px;
+			}
+		}
+		li:nth-of-type(2):hover{
+			background-position: -72px -160px;
+		}
+		li:nth-of-type(3){
+			a{
+				display: block;
+				width: 72px;
+				height: 80px;
+				background: url(http://img01.handu.com/hdysweb/20170508/float_box4.png) no-repeat 0px -160px;
+			}
+		}
+		li:nth-of-type(3):hover{
+			background-position: -72px -240px;
+		}
+		li:nth-of-type(4){
+			a{
+				display: block;
+				width: 72px;
+				height: 80px;
+				background: url(http://img01.handu.com/hdysweb/20170508/float_box4.png) no-repeat 0px -240px;
+			}
+		}
+		li:nth-of-type(4):hover{
+			background-position: -72px -320px;
+		}
+	}
+}
+
+//导航
+#nav{
+	height: 33px;
+	margin-top: 18px;
+	.w{
+		height: 33px;
+		position: relative;
+		.allgoods{
+			width: 190px;
+			line-height: 33px;
+			background: #fe0032;
+			color: #fff;
+			text-align: center;
+			font-size: 14px;
+		}
+		.pullList{
+			z-index: 10;
+			width: 190px;
+			position: absolute;
+			top: 33px;
+			left: 0px;
+			li{
+				width: 164px;
+				height: 40px;
+				background: #e3e3e3;
+				padding:12px 13px; 
+				position: relative;
+				border-bottom: 1px dotted #ccc;
+				a{
+					color: #3e3e3e;
+					margin-right: 5px;
+				}
+				h3{
+					width: 144px;
+					height:24px;
+					line-height: 24px;
+					position: relative;
+					padding-left: 20px;
+					span{
+						width: 18px;
+						height: 18px;
+						display: inline-block;
+						background: url(http://img01.handu.com/hdysweb/20150428/tb1.png) no-repeat center;
+						position: absolute;
+						left: 0px;
+						top: 2px;
+					}
+				}
+				.jt{
+					width: 6px;
+					height: 9px;
+					background: url(http://img01.handu.com/hdysweb/20150428/leftjt.png) no-repeat center;
+					position: absolute;
+					top: 20px;
+					right:5px; 
+				}
+			}
+			li:hover h3{
+				transform: translateX(15px);
+				transition: .7s;
+			}
+			li:hover{
+				background:#000;
+				color: white;
+			}
+			li:hover a{
+				color: white;
+			}
+			.l1{
+				position: relative;
+				.lList{	
+					background: #fff;
+					z-index: 10;
+					display: none;
+					width: 230px;
+					position: absolute;
+					right: -230px;
+					top: 0px;
+					a{
+						width: 70px;
+						height: 25px;
+						display: block;
+						float: left;
+						margin-right: 30px;
+						margin-bottom: 30px;
+					}
+				}
+			}
+			.l1:hover .lList{
+				display: block;
+			}
+			.l2{
+				position: relative;
+			}
+			.l2List{
+				z-index: 10;
+				background: #fff;
+				display: none;
+				width: 400px;
+				position: absolute;
+				top: -65px;
+				right: -400px;
+				.lis{
+					margin-left: 10px;
+					border-bottom: 1px dotted #ccc;
+					width: 380px;
+					padding: 0;
+					background: #fff;
+					padding-bottom: 10px;
+					h4{
+						font-size: 14px;
+						margin-bottom: 5px;
+						margin-top:5px; 
+					}
+					a{
+						border-right: 1px solid #ccc;
+						padding-right:5px; 
+						line-height: 1.5;
+					}
+				}
+			}
+			.l2:hover .l2List{
+				display: block;
+			}
+			.l2:hover .l2List a{
+				color: #999;
+			}
+			.l2:hover .l2List h4{
+				color: #333;
+			}
+			.l3{
+				position: relative;
+				.l3List{
+					z-index: 10;
+					background: #fff;
+					display: none;
+					width: 400px;
+					position: absolute;
+					top: -130px;
+					right: -400px;
+					.l3s{
+						margin-left: 10px;
+						border-bottom: 1px dotted #ccc;
+						width: 380px;
+						padding: 0;
+						background: #fff;
+						padding-bottom: 10px;
+						h4{
+							font-size: 14px;
+							margin-bottom: 5px;
+							margin-top:5px; 
+						}
+						a{
+							border-right: 1px solid #ccc;
+							padding-right:5px; 
+							line-height: 1.5;
+						}
+					}
+					.l3last{
+						overflow: hidden;
+					}
+					.l3last img{
+						float: left;
+						margin-right: 20px;
+					}
+				}
+			}
+			.l3:hover .l3List{
+				display: block;
+			}
+			.l3:hover .l3List h4{
+				color: #333;
+			}
+			.l3:hover .l3List a{
+				color: #999;
+			}
+		}
+		.notice,.tg{
+				width: 88px;
+				height: 33px;
+				text-align: center;
+				a{
+					line-height: 33px;
+					font-weight: bold;
+					font-size: 14px;
+					color: #3e3e3e;
+				}
+		}
+		.information{
+			.hdinfor{
+				width: 88px;
+				height: 33px;
+				a{
+					line-height: 33px;
+					font-weight: bold;
+					font-size: 14px;
+					color: #3e3e3e;
+					margin-right: 5px;
+				}
+				span{
+					width: 6px;
+					height: 5px;
+					display: inline-block;
+					background: url(http://img01.handu.com/hdysweb/20150428/sjt.png) no-repeat center;
+				}
+			}
+			.zb{
+				width: 88px;
+				height: 33px;
+				a{
+					line-height: 33px;
+					font-weight: bold;
+					font-size: 14px;
+					color: #3e3e3e;
+				}
+			}
+		}
+	}
+}
+
+//轮播
+#loop{
+	width: 100%;
+	height: 450px;
+	background: purple;
+	margin-top: 5px;
+	position: relative;
+	ul{
+		width: 100%;
+		position: absolute;
+		li{
+			height: 450px;
+			width: 100%;
+			position: absolute;
+			top: 0;
+			left: 0;
+			opacity: 0;
+		}
+		.li1{
+			opacity: 1;
+			div{
+				height: 90px;
+			}
+			div:nth-of-type(1){
+				background: url(http://img01.handu.com/hdysweb/20180129/1920-450_01.png) no-repeat center 0px;
+			}
+			div:nth-of-type(2){
+				background: url(http://img01.handu.com/hdysweb/20180129/1920-450_02.png) no-repeat center 0px;
+			}
+			div:nth-of-type(3){
+				background: url(http://img01.handu.com/hdysweb/20180129/1920-450_03.png) no-repeat center 0px;
+			}
+			div:nth-of-type(4){
+				background: url(http://img01.handu.com/hdysweb/20180129/1920-450_04.png) no-repeat center 0px;
+			}
+			div:nth-of-type(5){
+				background: url(http://img01.handu.com/hdysweb/20180129/1920-450_05.png) no-repeat center 0px;
+			}
+		}
+		.li2{
+			width: 100%;
+			div{
+				height: 90px;
+			}
+			div:nth-of-type(1){
+				background: url(http://img01.handu.com/hdysweb/20171213/jyy_01.png) no-repeat center 0px;
+			}
+			div:nth-of-type(2){
+				background: url(http://img01.handu.com/hdysweb/20171213/jyy_02.png) no-repeat center 0px;
+			}
+			div:nth-of-type(3){
+				background: url(http://img01.handu.com/hdysweb/20171213/jyy_03.png) no-repeat center 0px;
+			}
+			div:nth-of-type(4){
+				background: url(http://img01.handu.com/hdysweb/20171213/jyy_04.png) no-repeat center 0px;
+			}
+			div:nth-of-type(5){
+				background: url(http://img01.handu.com/hdysweb/20171213/jyy_05.png) no-repeat center 0px;
+			}
+		}
+		.li3{
+			width: 100%;
+			div{
+				height: 90px;
+			}
+			div:nth-of-type(1){
+				background: url(http://img01.handu.com/hdysweb/20171226/naz_01.png) no-repeat center 0px;
+			}
+			div:nth-of-type(2){
+				background: url(http://img01.handu.com/hdysweb/20171226/naz_02.png) no-repeat center 0px;
+			}
+			div:nth-of-type(3){
+				background: url(http://img01.handu.com/hdysweb/20171226/naz_03.png) no-repeat center 0px;
+			}
+			div:nth-of-type(4){
+				background: url(http://img01.handu.com/hdysweb/20171226/naz_04.png) no-repeat center 0px;
+			}
+			div:nth-of-type(5){
+				background: url(http://img01.handu.com/hdysweb/20171226/naz_05.png) no-repeat center 0px;
+			}
+		}
+	}
+	ol{
+		text-align: center;
+		width: 100%;
+		position: absolute;
+		bottom: 10px;
+		left: 0;
+		z-index: 10;
+		margin: 0;
+		padding: 0;
+		li{
+			display: inline-block;
+			width: 120px;
+			height: 30px;
+			background: #fff;
+			line-height: 30px;
+			text-align: center;
+			color: #333;
+			margin-right:10px;
+			cursor: pointer; 
+		}
+		li.active{
+			background: #333;
+			color: #fff;
+		}
+	}
+}
+
+//品牌运营
+#hd_zpp{
+	.w{
+		overflow: hidden;
+		.hd_zppleft{
+			width: 680px;
+			// height: 338px;
+			// background: #0f0;
+			.top{
+				height: 35px;
+				h2{
+					width: 270px;
+					line-height: 35px;
+				}
+				.change{
+					margin-top: 10px;
+					margin-right: 10px;
+					span{
+
+						width: 15px;
+						height: 15px;
+						display: inline-block;
+						background: url(http://img01.handu.com/hdysweb/20150313/zpp/bt.png) no-repeat center;
+					}
+					a{
+						color: #3e3e3e;
+					}
+					a:hover{
+						text-decoration:underline;
+					}
+				}
+			}
+			.brand{
+				border-top: 1px solid #ccc;
+				border-left:1px solid #ccc;
+				overflow: hidden;
+				width: 676px;
+				margin-top: 5px;
+				li{
+					width: 168px;
+					height: 73px;
+					border-right: 1px solid #ccc;
+					border-bottom:1px solid #ccc;
+					a{
+						width: 150px;
+						height: 65px;
+						display: block;
+						margin-left: 20px;
+						margin-top: 10px;
+					}
+				}
+			}
+		}
+		.hd_zppright{
+			width: 498px;
+			height: 338px;
+			position: relative;
+			.tabs{
+				border: 1px solid #ccc;
+				overflow: hidden;
+				cursor: pointer;
+				div{
+					width: 123px;
+					height: 44px;
+					line-height: 44px;
+					text-align: center;
+					font-size: 16px;
+				}
+				div.active{
+					border-bottom: 2px solid #ff0f3f;
+					color: #ff0f3f;
+					
+				}
+			}
+			.news1{
+				position: absolute;
+				left: 0;
+				top: 46px;
+				display: block;
+				border: 1px solid #ccc;
+				overflow: hidden;
+				.news1_left{
+					width: 230px;
+					margin:15px 9px 14px 9px;
+					.pic{
+						width: 230px;
+						height: 174px;
+						margin-bottom: 12px;
+						position: relative;
+						span{
+							width: 230px;
+							height: 30px;
+							line-height: 30px;
+							position: absolute;
+							bottom: 0;
+							left: 0;
+							background: rgba(0,0,0,0.5);
+							color: #fff;
+							text-align: center;
+						}
+					}
+					.list{
+						li{
+							line-height: 25px;
+							padding-left:8px;
+							background: url(http://s.handu.com/news/images/sq1.png) no-repeat left; 
+							a{
+								color: #333;
+							}
+							a:hover{
+								text-decoration: underline;
+							}
+						}
+					}
+				}
+				.news1_right{
+					width: 230px;
+					margin:15px 9px 14px 9px;
+					.pic{
+						width: 230px;
+						height: 174px;
+						margin-bottom: 12px;
+						position: relative;
+						span{
+							width: 230px;
+							height: 30px;
+							line-height: 30px;
+							position: absolute;
+							bottom: 0;
+							left: 0;
+							background: rgba(0,0,0,0.5);
+							color: #fff;
+							text-align: center;
+						}
+					}
+					.list{
+						li{
+							line-height: 25px;
+							padding-left:8px;
+							background: url(http://s.handu.com/news/images/sq1.png) no-repeat left; 
+							a{
+								color: #333;
+							}
+							a:hover{
+								text-decoration: underline;
+							}
+						}
+					}
+				}
+			}
+			.news2{
+				position: absolute;
+				left: 0;
+				top: 48px;
+				display: none;
+				border: 1px solid #ccc;
+				overflow: hidden;
+				img{
+					margin: 15px 6px 5px 9px;
+				}
+				.news_list{
+					margin:10px 9px 8px 9px;
+					li{
+						line-height: 25px;
+						padding-left:8px;
+						background: url(http://s.handu.com/news/images/sq1.png) no-repeat left;
+						span{
+							float: right;
+						}
+						a{
+							color: #333;
+						}
+						a:hover{
+							text-decoration: underline;
+						}
+					}
+				}
+			}
+			.news3{
+				position: absolute;
+				left: 0;
+				top: 46px;
+				display: none;
+				border: 1px solid #ccc;
+				overflow: hidden;
+				.news1_left{
+					width: 230px;
+					margin:15px 9px 14px 9px;
+					.pic{
+						width: 230px;
+						height: 174px;
+						margin-bottom: 12px;
+						position: relative;
+						span{
+							width: 230px;
+							height: 30px;
+							line-height: 30px;
+							position: absolute;
+							bottom: 0;
+							left: 0;
+							background: rgba(0,0,0,0.5);
+							color: #fff;
+							text-align: center;
+						}
+					}
+					.list{
+						li{
+							line-height: 25px;
+							padding-left:8px;
+
+							background: url(http://s.handu.com/news/images/sq1.png) no-repeat left; 
+							a{
+								color: #333;
+							}
+							a:hover{
+								text-decoration: underline;
+							}
+						}
+					}
+				}
+				.news1_right{
+					width: 230px;
+					margin:15px 9px 14px 9px;
+					.pic{
+						width: 230px;
+						height: 174px;
+						margin-bottom: 12px;
+						position: relative;
+						span{
+							width: 230px;
+							height: 30px;
+							line-height: 30px;
+							position: absolute;
+							bottom: 0;
+							left: 0;
+							background: rgba(0,0,0,0.5);
+							color: #fff;
+							text-align: center;
+						}
+					}
+					.list{
+						li{
+							line-height: 25px;
+							padding-left:8px;
+							background: url(http://s.handu.com/news/images/sq1.png) no-repeat left; 
+							a{
+								color: #333;
+							}
+							a:hover{
+								text-decoration: underline;
+							}
+						}
+					}
+				}
+			}
+			.news4{
+				position: absolute;
+				left: 0;
+				top: 48px;
+				display: none;
+				border: 1px solid #ccc;
+				overflow: hidden;
+				img{
+					margin: 15px 6px 5px 9px;
+				}
+				.news_list{
+					margin:10px 9px 8px 9px;
+					li{
+						line-height: 25px;
+						padding-left:8px;
+						background: url(http://s.handu.com/news/images/sq1.png) no-repeat left;
+						span{
+							float: right;
+						}
+						a{
+							color: #333;
+						}
+						a:hover{
+							text-decoration: underline;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+#partner{
+	.w{
+		margin-top: 20px;
+		overflow: hidden;
+		img.l{
+			height: 316px;
+		}
+		.r{
+			height: 316px;
+			width: 500px;
+			background: url(http://img01.handu.com/hdysweb/20170926/spfm.png) no-repeat top;
+		}	
+	}
+}
+
+#new{
+	margin-top:20px; 
+	.w{
+		height: 330px;
+		position: relative;
+		.new_head{
+			height: 24px;
+			padding-left: 200px;
+			background: url(http://s.handu.com/themes/handuyishe/index/images/web_index.png) no-repeat 0px -49px;
+			.classify{
+				a{
+					font-size: 12px;
+					width: 60px;
+					line-height:24px;
+					display: inline-block; 
+					margin: 0px 10px;
+					text-align: center;
+					color: #333;
+				}
+				a.active{
+					background: #c80a28;
+					color: white;
+				}
+			}
+		}
+		.list1{
+			margin-top: 10px;
+			overflow: hidden;
+			position: absolute;
+			top: 24px;
+			left: 0px;
+			background: #fff;
+			opacity: 0;
+			li{
+				height: 300px;
+				width: 223px;
+				margin-left: 20px;
+				img{
+					width: 223px;
+				}
+				p{
+					margin-top: 10px;
+					text-align: center;
+					line-height: 25px;
+					.s1{
+						font-size: 16px;
+						margin-right: 10px;
+					}
+					.s2{
+						text-decoration: line-through;
+						color: #ccc;
+					}
+				}
+				.s3{
+					margin-top: 10px;
+					display: inline-block;
+					width: 50px;
+					height: 20px;
+					border: 1px solid #333;
+					text-align: center;
+					margin-left: 86px;
+				}
+			}
+			li:nth-of-type(1){
+				margin-left: 0;
+			}
+		}
+		ul:nth-of-type(5){
+			opacity: 1;
+		}
+	}
+}
+
+#hstyle{
+	margin-top: 20px;
+	.w{
+		h2{
+			height: 20px;
+			background: url(http://s.handu.com/themes/handuyishe/index/images/web_index.png) no-repeat 0px -76px;
+			.product_classify{
+				line-height: 20px;
+				height: 20px;
+				a{
+					font-size: 12px;
+					color: #333;
+					font-weight: 100;
+					margin-left: 20px;
+				}
+			}			
+		}
+		.container{
+			width: 100%;
+			margin-top: 10px;
+			.topBox{
+				width: 100%;
+				height: 423px;
+				.left{
+					width: 190px;
+					height: 100%;
+					margin-right: 10px;
+					background: #f0f;
+					.picL{
+						height: 253px;
+						position: relative;
+						.sl{
+							height: 34px;
+							width: 100%;
+							background: rgba(222,195,130,0.8);
+							position: absolute;
+							left: 0;
+							bottom: 0;
+							text-align: center;
+							line-height: 34px;
+							a{
+								font-size: 14px;
+								color: white;
+								z-index: 2;
+
+							}
+						}
+					}
+					.prod{
+						background: #fafafa;
+						height: 170px;
+						a{
+							color: #333;
+							margin-right: 20px;
+							line-height: 30px;
+							font-weight: bold;
+						}
+					}
+				}
+				.center{
+					// width:790px;
+					margin-right: 10px;
+					height: 100%;
+				}
+				.right{
+					width: 190px;
+					height: 423px;
+					.picRt{
+						// height:293px;
+						// position: relative;
+						// .sRt{
+						// 	height: 34px;
+						// 	width: 100%;
+						// 	background: rgba(222,195,130,0.8);
+						// 	position: absolute;
+						// 	left: 0;
+						// 	bottom: 0;
+						// 	text-align: center;
+						// 	line-height: 34px;
+						// 	a{
+						// 		font-size: 14px;
+						// 		color: white;
+						// 		z-index: 2;
+
+						// 	}
+						// }
+						margin-bottom: 10px;
+					}
+					// .picRb{
+					// 	height:130px;
+					// 	position: relative;
+					// 	.sRb{
+					// 		height: 34px;
+					// 		width: 100%;
+					// 		background: rgba(222,195,130,0.8);
+					// 		position: absolute;
+					// 		left: 0;
+					// 		bottom: 0;
+					// 		text-align: center;
+					// 		line-height: 34px;
+					// 		a{
+					// 			font-size: 14px;
+					// 			color: white;
+					// 			z-index: 2;
+
+					// 		}
+					// 	}
+					// }
+				}
+				.hotList{
+					height: 422px;
+					width: 178px;
+					margin-left: 20px;
+					border: 1px solid #ccc;
+					border-top: 0;
+					padding: 0px 10px;
+					.hot{
+						h3{
+							line-height: 35px;
+							font-size: 14px;
+							color: #c80a28;
+							text-align: center;
+							border-bottom: 1px dashed #ccc;
+						}
+						li{
+							line-height: 36px;
+							text-align: center;
+							border-bottom: 1px solid #ccc;
+							a{
+								color: #333;
+							}
+						}
+					}
+				}
+			}
+			.bottomList{
+				margin-top: 10px;
+				overflow: hidden;
+				// position: absolute;
+				// top: 24px;
+				// left: 0px;
+				background: #fff;
+				li{
+					height: 300px;
+					width: 223px;
+					margin-left: 21px;
+					img{
+						width: 223px;
+					}
+					p{
+						margin-top: 10px;
+						text-align: center;
+						line-height: 25px;
+						.s1{
+							font-size: 16px;
+							margin-right: 10px;
+						}
+						.s2{
+							text-decoration: line-through;
+							color: #ccc;
+						}
+					}
+					.s3{
+						margin-top: 10px;
+						display: inline-block;
+						width: 50px;
+						height: 20px;
+						border: 1px solid #333;
+						text-align: center;
+						margin-left: 86px;
+					}
+				}
+				li:nth-of-type(1){
+					margin-left: 0;
+				}
+				li:nth-of-type(6){
+					margin-left: 0;
+				}
+			}
+		}
+	}
+}
+
+#momstyle{
+	margin-top: 20px;
+	.w{
+		h2{
+			height: 20px;
+			background: url(http://s.handu.com/themes/handuyishe/index/images/web_index.png) no-repeat 0px -76px;
+			.product_classify{
+				line-height: 20px;
+				height: 20px;
+				a{
+					font-size: 12px;
+					color: #333;
+					font-weight: 100;
+					margin-left: 20px;
+				}
+			}			
+		}
+		.container{
+			width: 100%;
+			margin-top: 10px;
+			.topBox{
+				width: 100%;
+				height: 423px;
+				.left{
+					width: 190px;
+					height: 100%;
+					margin-right: 15px;
+					background: #f0f;
+					.picL{
+						height: 253px;
+						position: relative;
+						.sl{
+							height: 34px;
+							width: 100%;
+							background: rgba(222,195,130,0.8);
+							position: absolute;
+							left: 0;
+							bottom: 0;
+							text-align: center;
+							line-height: 34px;
+							a{
+								font-size: 14px;
+								color: white;
+								z-index: 2;
+
+							}
+						}
+					}
+					.prod{
+						background: #fafafa;
+						height: 170px;
+						a{
+							color: #333;
+							margin-right: 20px;
+							line-height: 30px;
+							font-weight: bold;
+						}
+					}
+				}
+				.center{
+					width:790px;
+					margin-right: 15px;
+					height: 100%;
+				}
+				.right{
+					width: 190px;
+					
+					height: 423px;
+					.picRt{
+						height:293px;
+						position: relative;
+						.sRt{
+							height: 34px;
+							width: 100%;
+							background: rgba(222,195,130,0.8);
+							position: absolute;
+							left: 0;
+							bottom: 0;
+							text-align: center;
+							line-height: 34px;
+							a{
+								font-size: 14px;
+								color: white;
+								z-index: 2;
+
+							}
+						}
+					}
+					.picRb{
+						height:130px;
+						position: relative;
+						.sRb{
+							height: 34px;
+							width: 100%;
+							background: rgba(222,195,130,0.8);
+							position: absolute;
+							left: 0;
+							bottom: 0;
+							text-align: center;
+							line-height: 34px;
+							a{
+								font-size: 14px;
+								color: white;
+								z-index: 2;
+
+							}
+						}
+					}
+				}
+			}
+			.bottomList{
+				margin-top: 10px;
+				overflow: hidden;
+				// position: absolute;
+				// top: 24px;
+				// left: 0px;
+				background: #fff;
+				li{
+					height: 300px;
+					width: 223px;
+					margin-left: 21px;
+					img{
+						width: 223px;
+					}
+					p{
+						margin-top: 10px;
+						text-align: center;
+						line-height: 25px;
+						.s1{
+							font-size: 16px;
+							margin-right: 10px;
+						}
+						.s2{
+							text-decoration: line-through;
+							color: #ccc;
+						}
+					}
+					.s3{
+						margin-top: 10px;
+						display: inline-block;
+						width: 50px;
+						height: 20px;
+						border: 1px solid #333;
+						text-align: center;
+						margin-left: 86px;
+					}
+				}
+				li:nth-of-type(1){
+					margin-left: 0;
+				}
+			}
+		}
+	}
+}
+
+#girlstyle{
+	margin-top: 20px;
+	.w{
+		h2{
+			height: 20px;
+			background: url(http://s.handu.com/themes/handuyishe/index/images/web_index.png) no-repeat 0px -170px;
+			.product_classify{
+				line-height: 20px;
+				height: 20px;
+				a{
+					font-size: 12px;
+					color: #333;
+					font-weight: 100;
+					margin-left: 20px;
+				}
+			}			
+		}
+		.container{
+			width: 100%;
+			margin-top: 10px;
+			.topBox{
+				width: 100%;
+				height: 423px;
+				.left{
+					width: 190px;
+					height: 100%;
+					margin-right: 15px;
+					background: #f0f;
+					.picL{
+						height: 253px;
+						position: relative;
+						.sl{
+							height: 34px;
+							width: 100%;
+							background: rgba(0,0,0,0.8);
+							position: absolute;
+							left: 0;
+							bottom: 0;
+							text-align: center;
+							line-height: 34px;
+							a{
+								font-size: 14px;
+								color: white;
+								z-index: 2;
+
+							}
+						}
+					}
+					.prod{
+						background: #fafafa;
+						height: 170px;
+						a{
+							color: #333;
+							margin-right: 20px;
+							line-height: 30px;
+							font-weight: bold;
+						}
+					}
+				}
+				.center{
+					width:790px;
+					margin-right: 15px;
+					height: 100%;
+				}
+				.right{
+					width: 190px;
+					
+					height: 423px;
+					// .picRt{
+					// 	height:293px;
+					// 	position: relative;
+					// 	.sRt{
+					// 		height: 34px;
+					// 		width: 100%;
+					// 		background: rgba(222,195,130,0.8);
+					// 		position: absolute;
+					// 		left: 0;
+					// 		bottom: 0;
+					// 		text-align: center;
+					// 		line-height: 34px;
+					// 		a{
+					// 			font-size: 14px;
+					// 			color: white;
+					// 			z-index: 2;
+
+					// 		}
+					// 	}
+					// }
+					// .picRb{
+					// 	height:130px;
+					// 	position: relative;
+					// 	.sRb{
+					// 		height: 34px;
+					// 		width: 100%;
+					// 		background: rgba(222,195,130,0.8);
+					// 		position: absolute;
+					// 		left: 0;
+					// 		bottom: 0;
+					// 		text-align: center;
+					// 		line-height: 34px;
+					// 		a{
+					// 			font-size: 14px;
+					// 			color: white;
+					// 			z-index: 2;
+
+					// 		}
+					// 	}
+					// }
+					.picR{
+						margin-bottom: 8px;
+					}
+				}
+			}
+			.bottomList{
+				margin-top: 10px;
+				overflow: hidden;
+				// position: absolute;
+				// top: 24px;
+				// left: 0px;
+				background: #fff;
+				li{
+					height: 300px;
+					width: 223px;
+					margin-left: 21px;
+					img{
+						width: 223px;
+					}
+					p{
+						margin-top: 10px;
+						text-align: center;
+						line-height: 25px;
+						.s1{
+							font-size: 16px;
+							margin-right: 10px;
+						}
+						.s2{
+							text-decoration: line-through;
+							color: #ccc;
+						}
+					}
+					.s3{
+						margin-top: 10px;
+						display: inline-block;
+						width: 50px;
+						height: 20px;
+						border: 1px solid #333;
+						text-align: center;
+						margin-left: 86px;
+					}
+				}
+				li:nth-of-type(1){
+					margin-left: 0;
+				}
+			}
+		}
+	}
+}
+
+#childrenstyle{
+	margin-top: 20px;
+	.w{
+		h2{
+			height: 20px;
+			background: url(http://s.handu.com/themes/handuyishe/index/images/web_index.png) no-repeat 0px -203px;
+			.product_classify{
+				line-height: 20px;
+				height: 20px;
+				a{
+					font-size: 12px;
+					color: #333;
+					font-weight: 100;
+					margin-left: 20px;
+				}
+			}			
+		}
+		.container{
+			width: 100%;
+			margin-top: 10px;
+			.topBox{
+				width: 100%;
+				height: 423px;
+				.left{
+					width: 190px;
+					height: 100%;
+					margin-right: 15px;
+					background: #f0f;
+					.picL{
+						height: 253px;
+						position: relative;
+						.sl{
+							height: 34px;
+							width: 100%;
+							background: rgba(24,147,170,0.8);
+							position: absolute;
+							left: 0;
+							bottom: 0;
+							text-align: center;
+							line-height: 34px;
+							a{
+								font-size: 14px;
+								color: white;
+								z-index: 2;
+
+							}
+						}
+					}
+					.prod{
+						background: #fafafa;
+						height: 170px;
+						a{
+							color: #333;
+							margin-right: 20px;
+							line-height: 30px;
+							font-weight: bold;
+						}
+					}
+				}
+				.center{
+					width:790px;
+					margin-right: 15px;
+					height: 100%;
+				}
+				.right{
+					width: 190px;
+					
+					height: 423px;
+					.picRt{
+						margin-bottom: 10px;
+						position: relative;
+						.sRt{
+							height: 34px;
+							width: 100%;
+							background: rgba(222,195,130,0.8);
+							position: absolute;
+							left: 0;
+							bottom: 0;
+							text-align: center;
+							line-height: 34px;
+							a{
+								font-size: 14px;
+								color: white;
+								z-index: 2;
+
+							}
+						}
+					}
+					.picRb{
+						
+						position: relative;
+						.sRb{
+							height: 34px;
+							width: 100%;
+							background: rgba(222,195,130,0.8);
+							position: absolute;
+							left: 0;
+							bottom: 0;
+							text-align: center;
+							line-height: 34px;
+							a{
+								font-size: 14px;
+								color: white;
+								z-index: 2;
+
+							}
+						}
+					}
+				}
+			}
+			.bottomList{
+				margin-top: 10px;
+				overflow: hidden;
+				// position: absolute;
+				// top: 24px;
+				// left: 0px;
+				background: #fff;
+				li{
+					height: 300px;
+					width: 223px;
+					margin-left: 21px;
+					img{
+						width: 223px;
+					}
+					p{
+						margin-top: 10px;
+						text-align: center;
+						line-height: 25px;
+						.s1{
+							font-size: 16px;
+							margin-right: 10px;
+						}
+						.s2{
+							text-decoration: line-through;
+							color: #ccc;
+						}
+					}
+					.s3{
+						margin-top: 10px;
+						display: inline-block;
+						width: 50px;
+						height: 20px;
+						border: 1px solid #333;
+						text-align: center;
+						margin-left: 86px;
+					}
+				}
+				li:nth-of-type(1){
+					margin-left: 0;
+				}
+			}
+		}
+	}
+}
+
+#eastyle{
+	margin-top: 20px;
+	.w{
+		h2{
+			height: 20px;
+			background: url(http://s.handu.com/themes/handuyishe/index/images/web_index.png) no-repeat 0px -76px;
+			.product_classify{
+				line-height: 20px;
+				height: 20px;
+				a{
+					font-size: 12px;
+					color: #333;
+					font-weight: 100;
+					margin-left: 20px;
+				}
+			}			
+		}
+		.container{
+			width: 100%;
+			margin-top: 10px;
+			.topBox{
+				width: 100%;
+				height: 423px;
+				.left{
+					width: 190px;
+					height: 100%;
+					margin-right: 15px;
+					background: #f0f;
+					.picL{
+						height: 253px;
+						position: relative;
+						.sl{
+							height: 34px;
+							width: 100%;
+							background: rgba(0,0,0,0.8);
+							position: absolute;
+							left: 0;
+							bottom: 0;
+							text-align: center;
+							line-height: 34px;
+							a{
+								font-size: 14px;
+								color: white;
+								z-index: 2;
+
+							}
+						}
+					}
+					.prod{
+						background: #fafafa;
+						height: 170px;
+						a{
+							color: #333;
+							margin-right: 20px;
+							line-height: 30px;
+							font-weight: bold;
+						}
+					}
+				}
+				.center{
+					width:790px;
+					margin-right: 15px;
+					height: 100%;
+				}
+				.right{
+					width: 190px;
+					
+					height: 423px;
+					// .picRt{
+					// 	height:293px;
+					// 	position: relative;
+					// 	.sRt{
+					// 		height: 34px;
+					// 		width: 100%;
+					// 		background: rgba(222,195,130,0.8);
+					// 		position: absolute;
+					// 		left: 0;
+					// 		bottom: 0;
+					// 		text-align: center;
+					// 		line-height: 34px;
+					// 		a{
+					// 			font-size: 14px;
+					// 			color: white;
+					// 			z-index: 2;
+
+					// 		}
+					// 	}
+					// }
+					// .picRb{
+					// 	height:130px;
+					// 	position: relative;
+					// 	.sRb{
+					// 		height: 34px;
+					// 		width: 100%;
+					// 		background: rgba(222,195,130,0.8);
+					// 		position: absolute;
+					// 		left: 0;
+					// 		bottom: 0;
+					// 		text-align: center;
+					// 		line-height: 34px;
+					// 		a{
+					// 			font-size: 14px;
+					// 			color: white;
+					// 			z-index: 2;
+
+					// 		}
+					// 	}
+					// }
+				}
+			}
+			.bottomList{
+				margin-top: 10px;
+				overflow: hidden;
+				// position: absolute;
+				// top: 24px;
+				// left: 0px;
+				background: #fff;
+				li{
+					height: 300px;
+					width: 223px;
+					margin-left: 21px;
+					img{
+						width: 223px;
+					}
+					p{
+						margin-top: 10px;
+						text-align: center;
+						line-height: 25px;
+						.s1{
+							font-size: 16px;
+							margin-right: 10px;
+						}
+						.s2{
+							text-decoration: line-through;
+							color: #ccc;
+						}
+					}
+					.s3{
+						margin-top: 10px;
+						display: inline-block;
+						width: 50px;
+						height: 20px;
+						border: 1px solid #333;
+						text-align: center;
+						margin-left: 86px;
+					}
+				}
+				li:nth-of-type(1){
+					margin-left: 0;
+				}
+			}
+		}
+	}
+}
+
+#hor{
+	width: 100%;
+	margin-top: 30px;
+}
+
+#hd_information{
+	margin-top: 20px;
+	.w{
+		h2{
+			height: 36px;
+			background: url(http://s.handu.com/themes/handuyishe/index/images/footer04.png) no-repeat left 10px;
+			border-bottom: 1px solid #ccc;
+			span{
+				line-height: 36px;
+				a{
+					font-size: 12px;
+					color: #333;
+				}
+			}
+		}
+		.main{
+			overflow: hidden;
+			margin-top: 20px;
+			.left{
+				width: 350px;
+				height: 300px;
+				margin-right: 20px;
+				img{
+					width: 350px;
+				}
+			}
+			.center{
+				width: 350px;
+				height: 300px;
+				margin-right: 20px;
+
+				h3{
+					height: 35px;
+					background: url(http://s.handu.com/themes/handuyishe/index/images/footer04.png) no-repeat 0px -19px;
+				}
+				.center_news{
+					width: 260px;
+					height: 250px;
+					margin-right: 10px;
+					overflow: hidden;
+					.news_list{
+						li{
+							line-height: 28px;
+							white-space: nowrap;
+							a{
+								font-size: 14px;
+								color: #333;
+							}
+							
+						}
+						p{
+							line-height: 1.5;
+							color: #999;
+						}
+					}
+				}
+				.center_pic{
+					width: 80px;
+					height: 280px;
+					background: url(http://s.handu.com/images/afficheimg/1410508721545137834.jpg) no-repeat top;
+				}
+			}
+			.right{
+				width: 430px;
+				height: 300px;
+				position: relative;
+				.right_pic{
+					width: 448px;
+					height: 228px;
+					margin-bottom: 5px;
+					background: url(http://s.handu.com/themes/handuyishe/index/images/footer02.png) no-repeat 0px 0px;
+				}
+				input{
+					width: 252px;
+					height: 27px;
+
+				}
+				a{
+					width: 70px;
+					height: 22px;
+					display: inline-block;
+					position: absolute;
+					left: 260px;
+					top: 238px;
+					background: url(http://s.handu.com/themes/handuyishe/index/images/footer00.png) no-repeat center;
+				}
+			}
+		}
+	}
+}
+
+#bottom{
+	.w{
+		overflow: hidden;
+		.bottom_list{
+			height: 125px;
+			width: 100%;
+			background: #fafafa;
+			padding-top: 20px;
+			.list1{
+				width: 160px;
+				margin-left: 30px;
+				h4{
+					height: 25px;
+					background: url(http://s.handu.com/themes/handuyishe/images/footer_2014/footer01.png) no-repeat 0px 0px;
+				}
+				li{
+					line-height: 20px;
+					margin-left: 10px;
+					a{
+						color: #333;
+					}
+				}
+			}
+		}
+		.bottom_list2{
+			height: 30px;
+			width: 100%;
+			text-align: center;
+			background: #393939;
+			li{
+				display: inline-block;
+				line-height: 30px;
+				margin-right:40px; 
+				a{
+					color: #fff;
+
+				}
+			}
+		}
+		.bottom_list3{
+			width: 100%;
+			text-align: center;
+			height: 40px;
+			li{
+				display: inline-block;
+				line-height: 40px;
+				img{
+					margin-top: 10px;
+				}
+			}
+		}
+		.bottom_list4{
+			width: 100%;
+			text-align: center;
+			li{
+				display: inline-block;
+			}
+		}
+	}
+}

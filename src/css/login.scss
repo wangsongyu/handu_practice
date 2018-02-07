@@ -1,0 +1,679 @@
+@import "common.scss";
+
+//头部操作导航栏
+#globle_nav{
+	width: 100%;
+	height: 30px;
+	background: #ff0;
+	border-bottom:1px solid #ddd;
+	background: #f5f5f5;
+	a{
+		color: #3e3e3e;
+	}
+	.w{
+		height: 30px;
+		background: #f5f5f5;
+		.back{
+			text-align: center;
+			width: 70px;
+			line-height: 30px;
+			margin-left: 10px;
+			a{
+				color: #f60;
+				font-weight: bold;
+			}
+			a:hover{
+				color: firebrick;
+			}
+		}
+		.collect{
+			line-height: 30px;
+			text-align: center;
+			width: 70px;
+			a:hover{
+				color:firebrick;
+			}
+		}
+		.nav_bar{
+			height: 30px;
+			p.l{
+				line-height: 30px;
+				color: #000;
+				margin-right:10px; 
+				font-size: 14px;
+			}
+			.list{
+				li{
+					line-height: 30px;
+					margin-right: 15px;
+					a:hover{
+						color: #c70a28;
+					}
+				}
+				li:nth-of-type(2){
+					a{
+						color: #c70a28;
+					}
+					
+				}
+				li:nth-of-type(3){
+					a{
+						border-right: 1px solid #ccc;
+						padding-right: 10px;
+					}
+				}
+				
+			}
+			.nav_r{
+				line-height: 30px;
+				margin-right: 10px;
+				position: relative;
+				a:hover{
+					color: #C80A28;
+				}
+				.s1{
+					width: 12px;
+					height: 10px;
+					display: inline-block;
+					background: url(http://s.handu.com/themes/handuyishe/images/header_2014/icon.png) no-repeat -31px -28px;
+				}
+				.webdh{
+					z-index: 10;
+					width: 1150px;
+					height: 154px;
+					border:1px solid #ccc;
+					position: absolute;
+					left: -1110px;
+					top: 30px;
+					display: none;
+					background: #fff;
+					a:hover{
+						text-decoration: underline;
+					}
+					.hot{
+						margin-top:10px;
+						margin-left: 30px;
+						height: 130px;
+						width:180px;
+						border-right: 1px solid #ccc;
+						h1{
+							font-size: 16px;
+							color: #f56b03;
+							line-height: 35px;
+						}
+						ul{
+
+							li{
+								line-height: 24px;
+								width: 50%;
+							}
+						}
+					}
+					.Hstyle{
+						width: 300px;
+						height: 130px;
+						margin-top: 10px;
+						border-right: 1px solid #ccc;
+						margin-left: 30px;
+						h1{
+							font-size: 16px;
+							color: #ec0736;
+							line-height: 35px;
+						}
+						ul{
+							li{
+								float: left;
+								line-height: 24px;
+								width: 50%;
+							}
+						}
+					}
+					.AMH{
+						width: 150px;
+						height: 130px;
+						border-right: 1px solid #ccc;
+						margin-left: 30px;
+						margin-top: 10px;
+						h1{
+							font-size: 16px;
+							color: #2263d4;
+							line-height: 35px;
+						}
+					}
+					.mini{
+						width: 150px;
+						height: 130px;
+						border-right: 1px solid #ccc;
+						margin-left: 30px;
+						margin-top: 10px;
+						h1{
+							font-size: 16px;
+							color: #5e8e3d;
+							line-height: 35px;
+						}
+					}
+					.help{
+						width: 200px;
+						height: 130px;
+						margin-left: 30px;
+						margin-top: 10px;
+						h1{
+							font-size: 16px;
+							color: #686868;
+							line-height: 35px;
+						}
+						ul{
+							li{
+								float: left;
+								line-height: 24px;
+								width: 50%;
+							}
+						}
+					}
+				}
+			}
+			.nav_r:hover .webdh{
+				display: block;
+			}
+		}
+	}
+}
+
+//头部搜索栏
+#head{
+	width: 100%;
+	height: 115px;
+	.w{
+		position: relative;
+		height: 115px;
+		
+		h1{
+			width: 355px;
+			height: 97px;
+			margin-top: 8px;
+			background: url(http://img01.handu.com//hdysweb/20151009/logo_new.png) no-repeat center;
+		}
+		.hd_search{
+			width: 540px;
+			height: 62px;
+			
+			margin-top: 28px;
+			margin-left:30px; 
+			.top{
+				overflow: hidden;
+				input{
+					width: 400px;
+					height: 32px;
+					border: 2px solid #c80a28;
+					outline: none;
+					font-size: 14px;
+					line-height: 20px;
+					color: #c80a28;
+				}
+			.btn{
+					width: 85px;
+					height: 36px;
+					background: url(http://s.handu.com/themes/handuyishe/images/header_2014/icon.png) no-repeat 0px -45px;
+					cursor: pointer;
+				}
+			}
+			.bottom{
+				overflow: hidden;
+				ul{
+					li{
+						margin-left: 10px;
+						line-height: 26px;
+						a{
+							border-right: 1px solid #ccc;
+							padding-right: 10px;
+							color: #3e3e3e;
+						}
+						a:hover{
+							color: #f60;
+						}
+					}
+					li:nth-of-type(1){
+						margin-left: 0;
+					}
+					li:last-of-type a{
+						border: none;
+					}
+				}
+			}
+		}
+		.Scan{
+			width: 100px;
+			height: 116px;
+			position: absolute;
+			left: 1050px;
+			top: 16px;
+			p{
+				font-size: 12px;
+				line-height: 16px;
+				color: #ff0032;
+			}
+		}
+	}
+}
+
+//导航
+#nav{
+	height: 33px;
+	margin-top: 18px;
+	.w{
+		height: 33px;
+		position: relative;
+		.allgoods{
+			width: 190px;
+			line-height: 33px;
+			background: #fe0032;
+			color: #fff;
+			text-align: center;
+			font-size: 14px;
+		}
+		.pullList{
+			display: none;
+			z-index: 10;
+			width: 190px;
+			position: absolute;
+			top: 33px;
+			left: 0px;
+			li{
+				width: 164px;
+				height: 40px;
+				background: #e3e3e3;
+				padding:12px 13px; 
+				position: relative;
+				border-bottom: 1px dotted #ccc;
+				a{
+					color: #3e3e3e;
+					margin-right: 5px;
+				}
+				h3{
+					width: 144px;
+					height:24px;
+					line-height: 24px;
+					position: relative;
+					padding-left: 20px;
+					span{
+						width: 18px;
+						height: 18px;
+						display: inline-block;
+						background: url(http://img01.handu.com/hdysweb/20150428/tb1.png) no-repeat center;
+						position: absolute;
+						left: 0px;
+						top: 2px;
+					}
+				}
+				.jt{
+					width: 6px;
+					height: 9px;
+					background: url(http://img01.handu.com/hdysweb/20150428/leftjt.png) no-repeat center;
+					position: absolute;
+					top: 20px;
+					right:5px; 
+				}
+			}
+			li:hover h3{
+				transform: translateX(15px);
+				transition: .7s;
+			}
+			li:hover{
+				background:#000;
+				color: white;
+			}
+			li:hover a{
+				color: white;
+			}
+			.l1{
+				position: relative;
+				.lList{	
+					background: #fff;
+					z-index: 10;
+					display: none;
+					width: 230px;
+					position: absolute;
+					right: -230px;
+					top: 0px;
+					a{
+						width: 70px;
+						height: 25px;
+						display: block;
+						float: left;
+						margin-right: 30px;
+						margin-bottom: 30px;
+					}
+				}
+			}
+			.l1:hover .lList{
+				display: block;
+			}
+			.l2{
+				position: relative;
+			}
+			.l2List{
+				z-index: 10;
+				background: #fff;
+				display: none;
+				width: 400px;
+				position: absolute;
+				top: -65px;
+				right: -400px;
+				.lis{
+					margin-left: 10px;
+					border-bottom: 1px dotted #ccc;
+					width: 380px;
+					padding: 0;
+					background: #fff;
+					padding-bottom: 10px;
+					h4{
+						font-size: 14px;
+						margin-bottom: 5px;
+						margin-top:5px; 
+					}
+					a{
+						border-right: 1px solid #ccc;
+						padding-right:5px; 
+						line-height: 1.5;
+					}
+				}
+			}
+			.l2:hover .l2List{
+				display: block;
+			}
+			.l2:hover .l2List a{
+				color: #999;
+			}
+			.l2:hover .l2List h4{
+				color: #333;
+			}
+			.l3{
+				position: relative;
+				.l3List{
+					z-index: 10;
+					background: #fff;
+					display: none;
+					width: 400px;
+					position: absolute;
+					top: -130px;
+					right: -400px;
+					.l3s{
+						margin-left: 10px;
+						border-bottom: 1px dotted #ccc;
+						width: 380px;
+						padding: 0;
+						background: #fff;
+						padding-bottom: 10px;
+						h4{
+							font-size: 14px;
+							margin-bottom: 5px;
+							margin-top:5px; 
+						}
+						a{
+							border-right: 1px solid #ccc;
+							padding-right:5px; 
+							line-height: 1.5;
+						}
+					}
+					.l3last{
+						overflow: hidden;
+					}
+					.l3last img{
+						float: left;
+						margin-right: 20px;
+					}
+				}
+			}
+			.l3:hover .l3List{
+				display: block;
+			}
+			.l3:hover .l3List h4{
+				color: #333;
+			}
+			.l3:hover .l3List a{
+				color: #999;
+			}
+		}
+		.notice,.tg{
+				width: 88px;
+				height: 33px;
+				text-align: center;
+				a{
+					line-height: 33px;
+					font-weight: bold;
+					font-size: 14px;
+					color: #3e3e3e;
+				}
+		}
+		.information{
+			.hdinfor{
+				width: 88px;
+				height: 33px;
+				a{
+					line-height: 33px;
+					font-weight: bold;
+					font-size: 14px;
+					color: #3e3e3e;
+					margin-right: 5px;
+				}
+				span{
+					width: 6px;
+					height: 5px;
+					display: inline-block;
+					background: url(http://img01.handu.com/hdysweb/20150428/sjt.png) no-repeat center;
+				}
+			}
+			.zb{
+				width: 88px;
+				height: 33px;
+				a{
+					line-height: 33px;
+					font-weight: bold;
+					font-size: 14px;
+					color: #3e3e3e;
+				}
+			}
+		}
+	}
+}
+
+#login{
+	.w{
+		.left{
+			width: 410px;
+			height: 315px;
+			padding-top: 25px;
+			margin-left: 40px;
+			margin-right:50px; 
+		}
+		.right{
+			width: 608px;
+			height: 470px;
+
+			border-left: 1px dashed #ccc;
+			.user_login{
+				width: 300px;
+				height: 330px;
+
+				padding: 20px 40px;
+				margin-left: 80px;
+				margin-top: 20px;
+				box-shadow: 2px 2px 2px #ccc,-2px -2px 2px #ccc;
+
+				h3{
+					height: 30px;
+					line-height: 30px;
+					width: 300px;
+					border-bottom:1px solid #ccc;
+					font-size: 19px;
+					color: #666;
+					font-weight: 100;
+				}
+				.user_list{
+					margin-top: 30px;
+					.lis{
+						width: 300px;
+						line-height: 35px;
+						height: 35px;
+						margin-top: 10px;
+						.user_list_left{
+							width: 75px;
+							height: 33px;
+							text-align: right;
+
+						}
+						.text{
+							width: 207px;
+							height: 33px;
+							border: 1px solid #ccc;
+						}
+					}
+					.lis_code{
+						margin-top: 10px;
+						.user_list_left{
+							width: 75px;
+							height: 33px;
+							text-align: right;
+							line-height: 33px;
+						}
+						.text{
+							width: 120px;
+							height: 30px;
+							border: 1px solid #ccc;
+						}
+					}
+					.lis_login{
+						.user_list_btn{
+							width: 140px;
+							height: 35px;
+							line-height: 35px;
+							background: #BE0929;
+							color: white;
+							text-align: center;
+							border-radius: 4px;
+							margin-left: 73px;
+							margin-right: 2px;
+							cursor: pointer;
+						}
+						.chec{
+							line-height: 35px;
+						}
+					}
+					.lis_last{
+						line-height: 35px;
+						margin-top: 20px;
+						padding-left: 73px;
+						a{
+							color: #333;
+							text-decoration: underline;
+
+						}
+					}
+					.error{
+						line-height: 35px;
+						color:#BE0929;
+					}
+				}
+			}
+			.other{
+				height: 29px;
+				width: 528px;
+				margin-left: 80px;
+				margin-top: 20px;
+				.other_left{
+					width: 84px;
+					line-height: 29px;
+				}
+				.other_right{
+
+					width: 428px;
+					a:nth-of-type(1){
+						width: 97px;
+						height: 29px;
+						display: inline-block;
+						background: url(http://s.handu.com/themes/handuyishe/images/NEW_images/NEWS_login.png) no-repeat 0px -528px;
+					}
+					a:nth-of-type(2){
+						width: 97px;
+						height: 29px;
+						display: inline-block;
+						background: url(http://s.handu.com/themes/handuyishe/images/NEW_images/NEWS_login.png) no-repeat -111px -528px;
+					}
+					a:nth-of-type(3){
+						width: 97px;
+						height: 29px;
+						display: inline-block;
+						background: url(http://s.handu.com/themes/handuyishe/images/NEW_images/NEWS_login.png) no-repeat -222px -528px;
+					}
+					a:nth-of-type(4){
+						width: 97px;
+						height: 29px;
+						display: inline-block;
+						background: url(http://s.handu.com/themes/handuyishe/images/NEW_images/NEWS_login.png) no-repeat -333px -528px;
+					}
+				}
+			}
+		}
+	}
+}
+
+#bottom{
+	.w{
+		overflow: hidden;
+		.bottom_list{
+			height: 125px;
+			width: 100%;
+			background: #fafafa;
+			padding-top: 20px;
+			.list1{
+				width: 160px;
+				margin-left: 30px;
+				h4{
+					height: 25px;
+					background: url(http://s.handu.com/themes/handuyishe/images/footer_2014/footer01.png) no-repeat 0px 0px;
+				}
+				li{
+					line-height: 20px;
+					margin-left: 10px;
+					a{
+						color: #333;
+					}
+				}
+			}
+		}
+		.bottom_list2{
+			height: 30px;
+			width: 100%;
+			text-align: center;
+			background: #393939;
+			li{
+				display: inline-block;
+				line-height: 30px;
+				margin-right:40px; 
+				a{
+					color: #fff;
+
+				}
+			}
+		}
+		.bottom_list3{
+			width: 100%;
+			text-align: center;
+			height: 40px;
+			li{
+				display: inline-block;
+				line-height: 40px;
+				img{
+					margin-top: 10px;
+				}
+			}
+		}
+		.bottom_list4{
+			width: 100%;
+			text-align: center;
+			li{
+				display: inline-block;
+			}
+		}
+	}
+}

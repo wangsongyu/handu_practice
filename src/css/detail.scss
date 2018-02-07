@@ -1,0 +1,988 @@
+@import "common.scss";
+
+//头部操作导航栏
+#globle_nav{
+	width: 100%;
+	height: 30px;
+	background: #ff0;
+	border-bottom:1px solid #ddd;
+	background: #f5f5f5;
+	a{
+		color: #3e3e3e;
+	}
+	.w{
+		height: 30px;
+		background: #f5f5f5;
+		.back{
+			text-align: center;
+			width: 70px;
+			line-height: 30px;
+			margin-left: 10px;
+			a{
+				color: #f60;
+				font-weight: bold;
+			}
+			a:hover{
+				color: firebrick;
+			}
+		}
+		.collect{
+			line-height: 30px;
+			text-align: center;
+			width: 70px;
+			a:hover{
+				color:firebrick;
+			}
+		}
+		.nav_bar{
+			height: 30px;
+			p.l{
+				line-height: 30px;
+				color: #000;
+				margin-right:10px; 
+				font-size: 14px;
+			}
+			.list{
+				li{
+					line-height: 30px;
+					margin-right: 15px;
+					a:hover{
+						color: #c70a28;
+					}
+				}
+				li:nth-of-type(2){
+					a{
+						color: #c70a28;
+					}
+					
+				}
+				li:nth-of-type(3){
+					a{
+						border-right: 1px solid #ccc;
+						padding-right: 10px;
+					}
+				}
+				
+			}
+			.nav_r{
+				line-height: 30px;
+				margin-right: 10px;
+				position: relative;
+				a:hover{
+					color: #C80A28;
+				}
+				.s1{
+					width: 12px;
+					height: 10px;
+					display: inline-block;
+					background: url(http://s.handu.com/themes/handuyishe/images/header_2014/icon.png) no-repeat -31px -28px;
+				}
+				.webdh{
+					z-index: 10;
+					width: 1150px;
+					height: 154px;
+					border:1px solid #ccc;
+					position: absolute;
+					left: -1110px;
+					top: 30px;
+					display: none;
+					background: #fff;
+					a:hover{
+						text-decoration: underline;
+					}
+					.hot{
+						margin-top:10px;
+						margin-left: 30px;
+						height: 130px;
+						width:180px;
+						border-right: 1px solid #ccc;
+						h1{
+							font-size: 16px;
+							color: #f56b03;
+							line-height: 35px;
+						}
+						ul{
+
+							li{
+								line-height: 24px;
+								width: 50%;
+							}
+						}
+					}
+					.Hstyle{
+						width: 300px;
+						height: 130px;
+						margin-top: 10px;
+						border-right: 1px solid #ccc;
+						margin-left: 30px;
+						h1{
+							font-size: 16px;
+							color: #ec0736;
+							line-height: 35px;
+						}
+						ul{
+							li{
+								float: left;
+								line-height: 24px;
+								width: 50%;
+							}
+						}
+					}
+					.AMH{
+						width: 150px;
+						height: 130px;
+						border-right: 1px solid #ccc;
+						margin-left: 30px;
+						margin-top: 10px;
+						h1{
+							font-size: 16px;
+							color: #2263d4;
+							line-height: 35px;
+						}
+					}
+					.mini{
+						width: 150px;
+						height: 130px;
+						border-right: 1px solid #ccc;
+						margin-left: 30px;
+						margin-top: 10px;
+						h1{
+							font-size: 16px;
+							color: #5e8e3d;
+							line-height: 35px;
+						}
+					}
+					.help{
+						width: 200px;
+						height: 130px;
+						margin-left: 30px;
+						margin-top: 10px;
+						h1{
+							font-size: 16px;
+							color: #686868;
+							line-height: 35px;
+						}
+						ul{
+							li{
+								float: left;
+								line-height: 24px;
+								width: 50%;
+							}
+						}
+					}
+				}
+			}
+			.nav_r:hover .webdh{
+				display: block;
+			}
+		}
+	}
+}
+
+//头部搜索栏
+#head{
+	width: 100%;
+	height: 115px;
+	.w{
+		position: relative;
+		height: 115px;
+		
+		h1{
+			width: 355px;
+			height: 97px;
+			margin-top: 8px;
+			background: url(http://img01.handu.com//hdysweb/20151009/logo_new.png) no-repeat center;
+		}
+		.hd_search{
+			width: 540px;
+			height: 62px;
+			
+			margin-top: 28px;
+			margin-left:30px; 
+			.top{
+				overflow: hidden;
+				input{
+					width: 400px;
+					height: 32px;
+					border: 2px solid #c80a28;
+					outline: none;
+					font-size: 14px;
+					line-height: 20px;
+					color: #c80a28;
+				}
+			.btn{
+					width: 85px;
+					height: 36px;
+					background: url(http://s.handu.com/themes/handuyishe/images/header_2014/icon.png) no-repeat 0px -45px;
+					cursor: pointer;
+				}
+			}
+			.bottom{
+				overflow: hidden;
+				ul{
+					li{
+						margin-left: 10px;
+						line-height: 26px;
+						a{
+							border-right: 1px solid #ccc;
+							padding-right: 10px;
+							color: #3e3e3e;
+						}
+						a:hover{
+							color: #f60;
+						}
+					}
+					li:nth-of-type(1){
+						margin-left: 0;
+					}
+					li:last-of-type a{
+						border: none;
+					}
+				}
+			}
+		}
+		.Scan{
+			width: 100px;
+			height: 116px;
+			position: absolute;
+			left: 1050px;
+			top: 16px;
+			p{
+				font-size: 12px;
+				line-height: 16px;
+				color: #ff0032;
+			}
+		}
+	}
+}
+
+//导航
+#nav{
+	height: 33px;
+	margin-top: 18px;
+	.w{
+		height: 33px;
+		position: relative;
+		.allgoods{
+			width: 190px;
+			line-height: 33px;
+			background: #fe0032;
+			color: #fff;
+			text-align: center;
+			font-size: 14px;
+		}
+		.pullList{
+			display: none;
+			z-index: 10;
+			width: 190px;
+			position: absolute;
+			top: 33px;
+			left: 0px;
+			li{
+				width: 164px;
+				height: 40px;
+				background: #e3e3e3;
+				padding:12px 13px; 
+				position: relative;
+				border-bottom: 1px dotted #ccc;
+				a{
+					color: #3e3e3e;
+					margin-right: 5px;
+				}
+				h3{
+					width: 144px;
+					height:24px;
+					line-height: 24px;
+					position: relative;
+					padding-left: 20px;
+					span{
+						width: 18px;
+						height: 18px;
+						display: inline-block;
+						background: url(http://img01.handu.com/hdysweb/20150428/tb1.png) no-repeat center;
+						position: absolute;
+						left: 0px;
+						top: 2px;
+					}
+				}
+				.jt{
+					width: 6px;
+					height: 9px;
+					background: url(http://img01.handu.com/hdysweb/20150428/leftjt.png) no-repeat center;
+					position: absolute;
+					top: 20px;
+					right:5px; 
+				}
+			}
+			li:hover h3{
+				transform: translateX(15px);
+				transition: .7s;
+			}
+			li:hover{
+				background:#000;
+				color: white;
+			}
+			li:hover a{
+				color: white;
+			}
+			.l1{
+				position: relative;
+				.lList{	
+					background: #fff;
+					z-index: 10;
+					display: none;
+					width: 230px;
+					position: absolute;
+					right: -230px;
+					top: 0px;
+					a{
+						width: 70px;
+						height: 25px;
+						display: block;
+						float: left;
+						margin-right: 30px;
+						margin-bottom: 30px;
+					}
+				}
+			}
+			.l1:hover .lList{
+				display: block;
+			}
+			.l2{
+				position: relative;
+			}
+			.l2List{
+				z-index: 10;
+				background: #fff;
+				display: none;
+				width: 400px;
+				position: absolute;
+				top: -65px;
+				right: -400px;
+				.lis{
+					margin-left: 10px;
+					border-bottom: 1px dotted #ccc;
+					width: 380px;
+					padding: 0;
+					background: #fff;
+					padding-bottom: 10px;
+					h4{
+						font-size: 14px;
+						margin-bottom: 5px;
+						margin-top:5px; 
+					}
+					a{
+						border-right: 1px solid #ccc;
+						padding-right:5px; 
+						line-height: 1.5;
+					}
+				}
+			}
+			.l2:hover .l2List{
+				display: block;
+			}
+			.l2:hover .l2List a{
+				color: #999;
+			}
+			.l2:hover .l2List h4{
+				color: #333;
+			}
+			.l3{
+				position: relative;
+				.l3List{
+					z-index: 10;
+					background: #fff;
+					display: none;
+					width: 400px;
+					position: absolute;
+					top: -130px;
+					right: -400px;
+					.l3s{
+						margin-left: 10px;
+						border-bottom: 1px dotted #ccc;
+						width: 380px;
+						padding: 0;
+						background: #fff;
+						padding-bottom: 10px;
+						h4{
+							font-size: 14px;
+							margin-bottom: 5px;
+							margin-top:5px; 
+						}
+						a{
+							border-right: 1px solid #ccc;
+							padding-right:5px; 
+							line-height: 1.5;
+						}
+					}
+					.l3last{
+						overflow: hidden;
+					}
+					.l3last img{
+						float: left;
+						margin-right: 20px;
+					}
+				}
+			}
+			.l3:hover .l3List{
+				display: block;
+			}
+			.l3:hover .l3List h4{
+				color: #333;
+			}
+			.l3:hover .l3List a{
+				color: #999;
+			}
+		}
+		.notice,.tg{
+				width: 88px;
+				height: 33px;
+				text-align: center;
+				a{
+					line-height: 33px;
+					font-weight: bold;
+					font-size: 14px;
+					color: #3e3e3e;
+				}
+		}
+		.information{
+			.hdinfor{
+				width: 88px;
+				height: 33px;
+				a{
+					line-height: 33px;
+					font-weight: bold;
+					font-size: 14px;
+					color: #3e3e3e;
+					margin-right: 5px;
+				}
+				span{
+					width: 6px;
+					height: 5px;
+					display: inline-block;
+					background: url(http://img01.handu.com/hdysweb/20150428/sjt.png) no-repeat center;
+				}
+			}
+			.zb{
+				width: 88px;
+				height: 33px;
+				a{
+					line-height: 33px;
+					font-weight: bold;
+					font-size: 14px;
+					color: #3e3e3e;
+				}
+			}
+		}
+	}
+}
+
+#detail{
+	margin-top: 30px;
+	.w{
+		.left_list{
+			width: 175px;
+			margin-right: 20px; 
+			.hot_classify{
+				h3{
+					width: 170px;
+					height: 29px;
+					background: url(http://s.handu.com/themes/handuyishe/goods/images/cate0.png) no-repeat 11px 0px;
+				}
+				li{
+					height: 27px;
+					line-height: 27px;
+					padding-left: 27px;
+					background: url(http://s.handu.com/themes/handuyishe/goods/images/menu_arr.png) no-repeat 20px 10px;
+					a{
+						color: #666;
+					}
+					a:hover{
+						color: #c80a28;
+					}
+				}
+			}
+			.new{
+				margin-top: 20px;
+				h2{
+					width: 170px;
+					height: 19px;
+					background: url(http://s.handu.com/themes/handuyishe/goods/images/new.png) no-repeat 0px 0px;
+				}
+				.new_list{
+					width: 158px;
+					border: 1px solid #ccc;
+					padding: 5px;
+					li{
+						width: 158px;
+						margin-top: 10px;
+						border-bottom: 1px dashed #ccc;
+						img{
+							width: 158px;
+							height: 158px;
+						}
+						p{
+							line-height: 24px;
+							padding-left: 30px;
+							margin-top: 10px;
+						}
+						.s1{
+							display: block;
+							padding-left: 30px;
+							line-height: 20px;
+							font-size: 14px;
+						}
+						.s2{
+							display: block;
+							padding-left: 30px;
+							line-height: 20px;
+							color: #999;
+							text-decoration: line-through;
+							margin-bottom: 10px;
+						}
+					}
+					li:first-of-type{
+						margin-top: 0;
+					}
+				}
+			}
+			.hot{
+				margin-top: 20px;
+				h2{
+					width: 170px;
+					height: 19px;
+					background: url(http://s.handu.com/themes/handuyishe/goods/images/hot.png) no-repeat 0px 0px;
+				}
+				.hot_list{
+					width: 158px;
+					border: 1px solid #ccc;
+					padding: 5px;
+					li{
+						width: 158px;
+						border-bottom: 1px dashed #ccc;
+						margin-top: 10px;
+						img{
+							width: 158px;
+							height: 158px;
+						}
+						p{
+							line-height: 24px;
+							padding-left: 30px;
+							margin-top: 10px;
+						}
+						.s1{
+							display: block;
+							padding-left: 30px;
+							line-height: 20px;
+							font-size: 14px;
+						}
+						.s2{
+							display: block;
+							padding-left: 30px;
+							line-height: 20px;
+							color: #999;
+							text-decoration: line-through;
+							margin-bottom: 10px;
+						}
+					}
+					li:first-of-type{
+						margin-top: 0;
+					}
+				}
+			}
+		}
+		.right_list{
+			width: 998px;
+			height: 628px;
+			border: 1px solid #ccc;
+
+			.pic{
+				width: 479px;
+				height: 629px;
+				position: relative;
+				.sImg{
+					width: 478px;
+					height: 478px;
+					position: relative;
+					img{
+						width: 478px;
+						height: 478px;
+					}
+					.mask{
+						width: 290px;
+						height: 290px;
+						background: rgba(220,220,220,0.6);
+						position: absolute;
+						top: 0;
+						left: 0;
+						display: none;
+					}
+				}
+				.bigImg{
+					width: 480px;
+					height: 480px;
+					position: absolute;
+					left: 500px;
+					top: 0;
+					overflow: hidden;
+					display: none;
+					.bI{
+						position: absolute;
+						left: 0;
+						top: 0;
+					}
+				}
+				.pic_list{
+					text-align: center;
+					padding-top: 20px;
+					border-bottom: 1px dashed #eee;
+					li{
+						display: inline-block;
+						margin-bottom: 10px;
+						img{
+							width: 70px;
+							height: 70px;
+						}
+					}
+					li.active{
+						border: 1px solid #f00;
+						img{
+							width: 68px;
+							height: 68px;
+						}
+					}
+				}
+				.collect{
+					height: 40px;
+					
+					a{
+						display: inline-block;
+						width: 60px;
+						height: 20px;
+						margin-left: 30px;
+						color: #333;
+						margin-top: 15px;
+						padding-left: 20px;
+						background: url(http://s.handu.com/themes/handuyishe/goods/images/like.png) no-repeat 0px 0px;
+					}
+					.share{
+						width: 60px;
+						height: 20px;
+						padding-left: 20px;
+						line-height: 20px;
+						vertical-align: middle;
+						background: url(http://bdimg.share.baidu.com/static/images/is.png?cdnversion=20131219) no-repeat 0px 0px;
+						
+					}
+					.share_l{
+						vertical-align: middle;
+						width: 200px;
+						height: 20px;
+						display: inline-block;
+						margin-top: 5px;
+						background: url(http://bdimg.share.baidu.com/static/images/is.png?cdnversion=20131219) no-repeat 0px -119px,
+						url(http://bdimg.share.baidu.com/static/images/is.png?cdnversion=20131219) no-repeat 22px -79px,
+						url(http://bdimg.share.baidu.com/static/images/is.png?cdnversion=20131219) no-repeat 44px -198px,
+						url(http://bdimg.share.baidu.com/static/images/is.png?cdnversion=20131219) no-repeat 66px -238px,
+						url(http://bdimg.share.baidu.com/static/images/is.png?cdnversion=20131219) no-repeat 88px -719px ;
+					}
+					
+				}
+			}
+			.message{
+				width: 488px;
+				height: 629px;
+				padding-left: 20px;
+				padding-right: 10px;
+				border-left: 1px solid #ccc;
+				.top{
+					border-bottom: 1px solid #ccc;
+					h2{
+						font-size: 15px;
+						line-height: 30px;
+					}
+					h3{
+						color: #c80a28;
+					}
+					p{
+						line-height: 35px;
+						span{
+							display: inline-block;
+						}
+						.pName{
+							width: 70px;
+						}
+					}
+					.p1{
+						span{
+							margin-right: 20px;
+						}
+
+					}
+					.p2{
+						span:nth-of-type(2){
+							font-size: 18px;
+							color: #c80a28;
+						}
+					}
+					.p4{
+						.star{
+							width: 76px;
+							height: 15px;
+							background: url(http://s.handu.com/themes/handuyishe/goods/images/star-s.png) no-repeat 0px -15px;
+						}
+					}
+				}
+				.center{
+					border-bottom: 1px solid #ccc;
+					.size{
+						height: 27px;
+						margin-top: 20px;
+						span{
+							display: inline-block;
+						}
+						.s1{
+							width: 70px;
+							line-height: 27px;
+						}
+						.s2{
+							width: 50px;
+							height: 25px;
+							border: 1px dotted #ccc;
+							text-align: center;
+							line-height: 25px;
+							color: #ccc;
+							margin-right: 10px;
+							font-size: 14px;
+							cursor: pointer;
+						}
+						span.active{
+							border: 1px solid #c80a28;
+							color: #333;
+							background: url(http://s.handu.com/themes/handuyishe/goods/images/selected.png) no-repeat 34px 9px;
+						}
+					}
+					.color{
+						height: 27px;
+						margin-top: 20px;
+						span{
+							display: inline-block;
+						}
+						.s1{
+							width: 70px;
+							line-height: 27px;
+						}
+						.s2{
+							width: 70px;
+							height: 25px;
+							border: 1px dotted #ccc;
+							text-align: center;
+							line-height: 25px;
+							color: #ccc;
+							margin-right: 10px;
+							font-size: 14px;
+							cursor: pointer;
+						}
+						span.active{
+							border: 1px solid #c80a28;
+							color: #333;
+							background: url(http://s.handu.com/themes/handuyishe/goods/images/selected.png) no-repeat 54px 9px;
+						}
+					}
+					.count{
+						margin-top: 20px;
+						.s1{
+							width: 70px;
+							line-height: 27px;
+						}
+						.minus{
+							width: 14px;
+							height: 14px;
+							border: 1px solid #ccc;
+							display: inline-block;
+							line-height: 14px;
+							text-align: center;
+							cursor: pointer;
+						}
+						input[type="text"]{
+							width: 70px;
+							height: 25px;
+							border: 1px solid #ccc;
+							line-height: 25px;
+							text-align: center;
+						}
+						.plus{
+							width: 14px;
+							height: 14px;
+							border: 1px solid #ccc;
+							display: inline-block;
+							line-height: 14px;
+							text-align: center;
+							cursor: pointer;
+							margin-right: 20px;
+						}
+						.remain{
+
+						}
+					}
+					.now{
+						line-height: 27px;
+						margin-left: 70px;
+						color: #c80a28;
+					}
+					.buy{
+						height: 58px;
+						padding-left: 70px;
+						.nB{
+							width: 160px;
+							height: 43px;
+							background: url(http://s.handu.com/themes/handuyishe/goods/images/detail_buy.png) no-repeat 0px 0px;
+							display: inline-block;
+							margin-right: 15px;
+						}
+						.add{
+							width: 160px;
+							height: 43px;
+							background: url(http://s.handu.com/themes/handuyishe/goods/images/detail_addcart.png) no-repeat 0px 0px;
+							display: inline-block;
+						}
+					}
+				}
+				.bottom{
+					margin-top: 20px;
+					.p1{
+						line-height: 27px;
+						background: url(http://s.handu.com/themes/handuyishe/images/img/weixin.png) no-repeat 164px 7px,
+						url(http://s.handu.com/themes/handuyishe/images/img/sys.gif) no-repeat 186px 0px;
+						.q{
+							width: 16px;
+							height: 14px;
+							background: url(http://s.handu.com/themes/handuyishe/goods/images/goods_details.png) no-repeat -60px -136px;
+							display: inline-block;
+						}
+					}
+					.p2{
+						line-height: 27px;
+						background:url(http://s.handu.com/themes/handuyishe/goods/images/service.png) no-repeat 273px 5px;
+					}
+				}
+			}
+
+		}
+		.product_detail_list{
+				width: 1000px;
+				margin-top: 20px;
+				margin-right: 5px;
+				.tit{
+					height: 35px;
+					background: #f5f3f0;
+					border: 1px solid #ccc;
+					padding-bottom: 2px;
+					li{
+						width: 138px;
+						background: #fff;
+						height: 30px;
+						cursor: pointer;
+						text-align: center;
+						line-height: 30px;
+						font-size: 14px;
+						color: #888;
+						font-weight: bold;
+						border-bottom: 1px solid #ccc;
+					}
+					li:last-of-type{
+						width: 582px;
+						border-right: 0;
+					}
+					.pD,.eva{
+						border-right:1px solid #ccc; 
+					}
+					li.active{
+						height: 28px;
+						background: #f5f3f0;
+						border-top: 2px solid #c80a28; 
+						border-bottom:0; 
+					}
+				}
+				.inf{
+					width: 750px;
+					height: 77px;
+					border: 1px solid #ccc;
+					background: #f6f6f6;
+					margin:20px auto; 
+					li{
+						width: 220px;
+						height: 20px;
+						text-indent: 20px;
+						line-height: 30px;
+						margin-top: 10px;
+					}
+				}
+				.imgs{
+					margin: 20px auto;
+					width: 750px;
+				}
+		}
+	}
+}
+
+#bottom{
+	.w{
+		overflow: hidden;
+		.bottom_list{
+			height: 125px;
+			width: 100%;
+			background: #fafafa;
+			padding-top: 20px;
+			.list1{
+				width: 160px;
+				margin-left: 30px;
+				h4{
+					height: 25px;
+					background: url(http://s.handu.com/themes/handuyishe/images/footer_2014/footer01.png) no-repeat 0px 0px;
+				}
+				li{
+					line-height: 20px;
+					margin-left: 10px;
+					a{
+						color: #333;
+					}
+				}
+			}
+		}
+		.bottom_list2{
+			height: 30px;
+			width: 100%;
+			text-align: center;
+			background: #393939;
+			li{
+				display: inline-block;
+				line-height: 30px;
+				margin-right:40px; 
+				a{
+					color: #fff;
+
+				}
+			}
+		}
+		.bottom_list3{
+			width: 100%;
+			text-align: center;
+			height: 40px;
+			li{
+				display: inline-block;
+				line-height: 40px;
+				img{
+					margin-top: 10px;
+				}
+			}
+		}
+		.bottom_list4{
+			width: 100%;
+			text-align: center;
+			li{
+				display: inline-block;
+			}
+		}
+	}
+}
